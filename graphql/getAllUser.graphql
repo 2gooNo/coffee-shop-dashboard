@@ -1,0 +1,10 @@
+query getAllUser {
+  getAllUser {
+    fullName
+    email
+    password
+    avatar
+    favotites
+    adress
+  }
+}

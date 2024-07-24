@@ -1,0 +1,10 @@
+mutation addUser($input: createUserInput) {
+  addUser(input: $input) {
+    fullName
+    email
+    password
+    avatar
+    favotites
+    adress
+  }
+}

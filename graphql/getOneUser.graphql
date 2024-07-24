@@ -1,0 +1,3 @@
+query Query($input: getOneUserInput) {
+  getOneUser(input: $input)
+}

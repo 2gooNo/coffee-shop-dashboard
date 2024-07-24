@@ -1,0 +1,13 @@
+mutation AddProduct($input: addProductInput) {
+  addProduct(input: $input) {
+    imageURL
+    name
+    price {
+      small
+      medium
+      large
+    }
+    description
+    categoryId
+  }
+}

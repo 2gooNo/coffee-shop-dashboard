@@ -1,0 +1,13 @@
+query GetAllProduct {
+  getAllProduct {
+    imageURL
+    name
+    price {
+      small
+      medium
+      large
+    }
+    description
+    categoryId
+  }
+}
